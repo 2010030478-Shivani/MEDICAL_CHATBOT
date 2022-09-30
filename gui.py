@@ -118,9 +118,6 @@ class ChatInterface(Frame):
         tkinter.messagebox.showinfo("MedBot v1.0",
                                     'MedBot is a chatbot for answering health related queries\nIt is based on retrival-based NLP using pythons NLTK tool-kit module\nGUI is based on Tkinter\nIt can answer questions regarding users health status')
 
-    def about(self):
-        tkinter.messagebox.showinfo("MedBot Developers",
-                                    "1.Samarth Kumar Pal\n2.Rakesh Kumar\n3.Amber Kakkar\n4.Akash Upadhyay")
 
     def send_message_insert(self, message):
         user_input = self.entry_field.get()
